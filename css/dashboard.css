@@ -1,0 +1,7 @@
+.main-color-bg{
+    background-color: black !important;
+    color: white;
+}
+body{
+    background: url('../images/login.jpg');
+}

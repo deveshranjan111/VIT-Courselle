@@ -1,0 +1,60 @@
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(../images/login.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.signup{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 110px;
+    height: 430px;
+    margin: 0 auto;
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+
+h2{
+    color: #000;
+}
+::placeholder{
+    color: aliceblue;
+    opacity: 0.8;/*firefox*/
+}
